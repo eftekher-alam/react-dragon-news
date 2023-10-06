@@ -1,8 +1,15 @@
+import Categories from "../categories/Categories";
+import LeftNewsCard from "../leftNewsCard/LeftNewsCard";
 
 const LeftNav = () => {
     return (
         <div>
-            this is left nav
+            <div>
+                <Categories></Categories>
+            </div>
+            <div>
+                <LeftNewsCard></LeftNewsCard>
+            </div>
         </div>
     );
 };
